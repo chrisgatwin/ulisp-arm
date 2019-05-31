@@ -11,7 +11,12 @@
 #define serialmonitor
 // #define printgcs
 // #define sdcardsupport
-// #define lisplibrary
+#define lisplibrary
+
+const char LispLibrary[] PROGMEM =
+    "(defun sq (x) (* x x))"
+    "(defun cube (x) (* x x x))"
+    ;
 
 // Includes
 
